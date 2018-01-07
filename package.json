@@ -1,5 +1,5 @@
 {
-  "name": "koa2-session-redis",
+  "name": "koa2-session2-redis",
   "version": "1.0.0",
   "description": "Middleware for Koa2 to get/set session use with redis stores",
   "main": "index.js",
