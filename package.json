@@ -1,0 +1,31 @@
+{
+  "name": "koa2-session-redis",
+  "version": "1.0.0",
+  "description": "Middleware for Koa2 to get/set session use with redis stores",
+  "main": "index.js",
+  "scripts": {
+  },
+  "files": [
+    "index.js",
+    "libs"
+  ],
+  "keywords": [
+    "koa2",
+    "session",
+    "redis",
+    "store",
+    "middleware"
+  ],
+  "author": "lix059",
+  "license": "MIT",
+  "homepage": "https://github.com/lix059/koa2-session-redis#readme",
+  "peerDependencies": {
+    "koa": ">=2.0.1"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "ioredis": "^3.2.2"
+  }
+}
