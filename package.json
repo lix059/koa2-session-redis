@@ -16,7 +16,7 @@
     "store",
     "middleware"
   ],
-  "author": "lix059",
+  "author": "lixiong",
   "license": "MIT",
   "homepage": "https://github.com/lix059/koa2-session-redis#readme",
   "peerDependencies": {
