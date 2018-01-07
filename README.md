@@ -13,7 +13,7 @@ node v7.x +
 
 ## Install
 ```
-npm install koa2-session-redis
+npm install koa2-session2-redis
 ```
 
 ## Usage
