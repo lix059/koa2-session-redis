@@ -16,9 +16,14 @@
     "store",
     "middleware"
   ],
-  "author": "lixiong",
+  
+  "author": {
+    "name": "lixiong",
+    "email": "lixiong@turingcat.com",
+    "url": "https://github.com/lix059"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/lix059/koa2-session-redis#readme",
+  "homepage": "https://github.com/lix059/koa2-session-redis",
   "peerDependencies": {
     "koa": ">=2.0.1"
   },
