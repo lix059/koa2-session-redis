@@ -19,7 +19,7 @@ npm install koa2-session2-redis
 ## Usage
 ```js
 const Koa = require("koa");
-const session = require("koa2-session-redis");
+const session = require("koa2-session2-redis");
 
 const app = new Koa();
 
