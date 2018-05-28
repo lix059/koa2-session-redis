@@ -47,6 +47,9 @@ module.exports = (opts = {}) => {
             // set/update session
             if(id) {
                 sid = await store.setOld(ctx.session, id);
+                if(!sid) {
+                   sid = await store.set(ctx.session, opts);
+                }
             } else {
                 sid = await store.set(ctx.session, opts);
             }
